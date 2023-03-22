@@ -1,0 +1,327 @@
+
+
+
+ 
+
+
+
+
+
+
+
+#jumpt1 {
+    width: 100%;
+    background-color: black;
+    height: 550px
+}
+
+#col1 {
+    text-align: center;
+    align-items: center;
+    margin-top: 10%
+}
+
+
+.img4{
+
+    height:50%;
+    width:100%
+}
+body {
+    margin-bottom: 60px;
+}
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+    display: none;
+}
+ 
+.alert {
+    padding: 20px;
+    background-color: #f44336;  
+    color: white;
+    margin-bottom: 15px;
+}
+
+.slidep{
+
+    color:white
+}
+
+.moto-text_system_3 {
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Raleway', sans-serif;
+    color: #1e1e1e;
+    font-size: 50px;
+    line-height: 1.2;
+    letter-spacing: 0px;
+}
+
+
+
+.moto-text_system_2 {
+    font-weight: 100;
+    font-style: normal;
+    font-family: 'Raleway', sans-serif;
+    color: #1e1e1e;
+    font-size: 25px;
+    line-height: 1.1;
+    letter-spacing: 0px;
+}
+
+#CCenter {
+    margin: auto;
+    width: 80%;
+ 
+    
+    padding: 10px;
+}
+
+#CCCenter {
+
+    
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+}
+
+#DropdownList{
+
+    width:100%
+}
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+
+
+.fade-in {
+    animation: fadeIn ease 3s;
+    -webkit-animation: fadeIn ease 3s;
+    -moz-animation: fadeIn ease 3s;
+    -o-animation: fadeIn ease 3s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+@media only screen and (max-width: 400px) {
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+
+.image {
+
+    opacity: 1;
+    display: block;
+    width: 93%;
+    height: 80%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+/*.middle {
+    color: white;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+
+
+#did:hover img {
+    opacity: 0.3;
+}
+
+
+#did:hover .middle {
+    opacity: 1;
+}
+*/
+
+.img2 {
+    display: block;
+    width: 1200px;
+    height: 600px;
+}
+
+p {
+    font-weight: 600;
+    font-style: normal;
+    font-family: 'Raleway', sans-serif;
+    color: #1e1e1e;
+    font-size: 15px;
+    line-height: 2;
+    letter-spacing: 0px;
+}
+
+h1 {
+    font-weight: bold;
+    font-style: normal;
+    font-family: 'Raleway', sans-serif;
+    color: #1e1e1e;
+    font-size: 110px;
+    line-height: 1.2;
+    letter-spacing: 0px;
+}
+
+.jumbotron {
+    position: relative;
+    box-sizing:inherit;
+    margin:0;
+    padding:0;
+    height:90%
+
+}
+
+.respimg {
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+}
+
+
+#btn-first:active #Cars{
+
+
+    opacity:0.4
+
+
+ 
+}
+
+
+
+.hov:hover a{
+
+
+    background-color:black
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

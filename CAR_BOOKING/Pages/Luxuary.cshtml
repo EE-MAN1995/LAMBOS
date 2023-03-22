@@ -1,0 +1,601 @@
+﻿@page
+@model CAR_BOOKING.Pages.LuxuaryModel
+@{
+
+    ViewData["Title"] = "Luxuaryst Car";
+}
+
+<link href="~/css/style.css" rel="stylesheet" />
+
+<div class="jumbtroon" id="Cars">
+
+
+    <div class="container">
+
+
+
+        <div class="row" style="margin-top:30px">
+
+
+            <div class="col">
+
+                <h2>Avilable Luxury’s Car For Rent</h2>
+
+
+            </div>
+
+
+        </div>
+
+
+
+        <div class="row" style="margin-top:40px">
+
+            <div class="col-lg-4">
+
+
+
+                <div class="row">
+
+                    <img id="IM1" class="image" src="~/SSSSSS/luxu1.jpg" style="padding-top:10px" />
+                </div>
+
+
+                <div class="row" style="margin-top:10px">
+
+
+
+
+                    <div class="col">
+
+
+                        <h5>Audi R8</h5>
+
+                    </div>
+
+
+
+                    <div class="col">
+
+
+                        <h4>800$/day</h4>
+
+                    </div>
+
+
+
+
+
+                </div>
+
+                <div class="row">
+
+
+
+                    <p>
+                         Passengers:2 | bags: 1 | Transmission: Auto 
+                    </p>
+
+
+
+                    <div class="row">
+
+                        <div class="col">
+
+                            <a href="#jum1" style="width:30% ; margin-left:30%" class="btn btn-secondary">Book</a>
+                        </div>
+
+
+
+
+                    </div>
+
+                </div>
+
+
+
+
+
+            </div>
+
+            <div class="col-lg-4">
+
+
+
+                <div class="row">
+
+                    <img id="IM1" class="image" src="~/SSSSSS/luxu2.jpg" style="padding-top:10px" />
+                </div>
+
+
+                <div class="row" style="margin-top:10px">
+
+
+
+
+                    <div class="col">
+
+
+                        <h5>Aston Martin GT</h5>
+
+                    </div>
+
+
+
+                    <div class="col">
+
+
+                        <h4>700$/day</h4>
+
+                    </div>
+
+
+
+
+
+                </div>
+
+                <div class="row">
+
+                    <p>
+                        Passengers:2 | bags: 1 | Transmission: Auto
+                    </p>
+
+                    <div class="row">
+
+                        <div class="col">
+
+                            <a href="#jum1" style="width:30% ; margin-left:30%" class="btn btn-secondary">Book</a>
+                        </div>
+
+
+
+
+                    </div>
+
+                </div>
+
+
+
+
+
+            </div>
+
+
+
+            <div class="col-lg-4">
+
+
+
+                <div class="row">
+
+                    <img id="IM1" class="image" src="~/SSSSSS/luxu3.jpg" style="padding-top:10px" />
+                </div>
+
+
+                <div class="row" style="margin-top:10px">
+
+
+
+
+                    <div class="col">
+                        
+
+                        <h5>Ferrari GT </h5>
+
+                    </div>
+
+
+
+                    <div class="col">
+
+
+                        <h4>900$/day</h4>
+
+                    </div>
+
+
+
+
+
+                </div>
+
+                <div class="row">
+
+                    <p>
+                      
+                        Passengers:2 | bags: 2 | Transmission: Auto
+                        
+                    </p>
+
+                    <div class="row">
+
+                        <div class="col">
+
+                            <a href="#jum1" style="width:30% ; margin-left:30%" class="btn btn-secondary">Book</a>
+                        </div>
+
+
+
+
+                    </div>
+
+                </div>
+
+
+
+
+
+            </div>
+
+
+
+
+        </div>
+
+        <div class="row" style="margin-top:40px">
+
+            <div class="col-lg-4">
+
+
+
+                <div class="row">
+
+                    <img id="IM1" class="image" src="~/SSSSSS/luxu4.jpg" style="padding-top:10px" />
+                </div>
+
+
+                <div class="row" style="margin-top:10px">
+
+
+
+
+                    <div class="col">
+
+
+                        <h5>Porsche 911 Turbo</h5>
+
+                    </div>
+
+
+
+                    <div class="col">
+
+
+                        <h4>900$/day</h4>
+
+                    </div>
+
+
+
+
+
+                </div>
+
+                <div class="row">
+
+                    <p>
+                       Passengers:2 | bags: 2 | Transmission: Auto
+                    </p>
+
+                    <div class="row">
+
+                        <div class="col">
+
+                             <a href="#jum1" style="width:30% ; margin-left:30%" class="btn btn-secondary">Book</a>
+                        </div>
+
+
+
+
+                    </div>
+
+                </div>
+
+
+
+
+
+            </div>
+ 
+
+
+        </div>
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+</div>
+
+
+
+<div class="jumbotron" id="jum1">
+
+
+
+    <div class="container">
+
+        <div class="row">
+
+
+            <div class="col-lg-6" style="margin-top:15%">
+
+
+                <div class="row">
+
+
+                    <div class="col">
+
+
+                        <h2>
+                            Car Information
+                        </h2>
+
+                    </div>
+
+
+
+                </div>
+
+
+
+                <div class="row" style=" margin-top:13px">
+
+
+
+                    <div class="col">
+
+                        <h4>Car Name</h4>
+
+                    </div>
+
+
+
+
+                    <div class="col">
+
+
+
+
+                        <select style="width:100%" class="input-group-text" id="lux_cars" onchange="lxdgetComboA(this)">
+
+                            <option id="cr1" value="volvo">Audi R8</option>
+                                <option id="cr2" value="saab">Aston Martin GT</option>
+                                <option id="cr3" value="opel">Ferrari GT</option>
+                            <option id="cr4" value="audi">Porsche 911 Turbo</option>
+                              
+                            
+                           
+                        </select>
+
+                    </div>
+
+
+
+
+
+
+                </div>
+
+
+
+
+
+
+                <div class="row" style=" margin-top:13px">
+
+
+
+
+                    <div class="col">
+
+
+                        <h4>Rent Cost Per a Day</h4>
+
+                    </div>
+
+
+                    <div class="col" style="text-align:center">
+
+                        <h3 id="lxcost">800</h3>
+
+                    </div>
+
+
+                </div>
+
+                <div class="row" style=" margin-top:13px">
+
+
+
+
+                    <div class="col">
+
+
+                        <h4 id="dd">Number of Days</h4>
+
+                    </div>
+
+
+                    <div class="col">
+
+                        <select style="width:100%" class="input-group-text" onchange="lxdays(this)">
+                            <option value=5>5</option>
+                            <option value=7>7</option>
+                            <option value=31>31</option>
+
+                        </select>
+
+                    </div>
+
+
+                </div>
+
+                <div class="row" style=" margin-top:13px">
+
+
+
+
+                    <div class="col">
+
+
+                        <h4>Total</h4>
+
+                    </div>
+
+
+                    <div class="col" style="text-align:center">
+
+                        <h3 id="lxtotal">4000</h3>
+
+                    </div>
+
+
+                </div>
+
+
+
+
+
+
+            </div>
+
+
+            <div class="col-lg-6" style="margin-top:10%">
+
+
+
+
+
+
+
+
+
+
+                <div class="container">
+
+
+
+
+
+
+                    <div class="row">
+
+                        <div>
+
+                            <div class="col">
+
+                                <h2>Personla Information</h2>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="row">
+
+
+
+
+
+
+                        <div class="col-lg-12">
+
+                            <input id="lux_name" class="form-control" type="text" style="width:100%" placeholder="Full Name" />
+                            <p style="color:red" id="demo"></p>
+
+
+
+                        </div>
+
+
+
+
+
+
+
+                    </div>
+                    <div class="row">
+
+
+
+
+                        <div class="col-lg-12">
+
+                            <input id="lux_em" type="email" style="width:100%" placeholder="Email" class="form-control" />
+                            <p style="color:red" id="demo2"></p>
+                        </div>
+
+
+                    </div>
+                    <div class="row">
+
+
+
+
+                        <div class="col-lg-12">
+
+                            <input class="form-control" maxlength="10" id="lux_tel" type="tel" style="width:100%" placeholder="Phone Number" />
+                            <p style="color:red" id="demo1"></p>
+                        </div>
+
+
+                    </div>
+                    <div class="row">
+
+
+
+
+                        <div class="col-lg-12">
+
+                            <textarea maxlength="100" class="form-control" style="width:100%" rows="4" cols="50" placeholder="Message.."></textarea>
+
+                        </div>
+
+
+                    </div>
+
+                    <div class="row" style=" margin-top:40px">
+
+
+
+
+                        <div class="col-lg-12">
+
+                            <button type="button" onclick="lux_myFunction()" style="width:100%" class="btn btn-secondary" value="Send"> Send </button>
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+                </div>
+
+
+
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+</div>
+
